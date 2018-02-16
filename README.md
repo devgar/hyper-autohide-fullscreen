@@ -1,8 +1,8 @@
-# hyper-autohide-tabs
+# hyper-autohide-fullscreen
 
-This plugin autohides tab bar when there is only one tab.
+This plugin autohides tab bar when there is only one tab on macOS in fullscreen.
 
-![auto hiding](http://i.imgur.com/PVWCjO6.gif)
+![auto hiding](https://media.giphy.com/media/1yTaxYHFS2k8lqkgnR/giphy.gif)
 
 ## Usage
 
@@ -10,6 +10,6 @@ Add plugin to `~/.hyper.js`:
 
 ```js
 plugins: [
-  'hyper-autohide-tabs'
+  'hyper-autohide-fullscreen'
 ]
 ```
