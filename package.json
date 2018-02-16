@@ -1,19 +1,19 @@
 {
-  "name": "hyper-autohide-tabs",
-  "version": "0.0.2",
-  "description": "Autohides the tab bar in hyperterm when there is only one tab",
+  "name": "hyper-autohide-fullscreen",
+  "version": "0.0.1",
+  "description": "Autohides the tab bar in fullscreen when there is only one tab",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brychanrobot/hyper-autohide-tabs.git"
+    "url": "git+https://github.com/devgar/hyper-autohide-fullscreen.git"
   },
-  "author": "Bryant Chandler (http://github.com/brychanrobot)",
+  "author": "Edgar Albalate (http://github.com/brychanrobot)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brychanrobot/hyper-autohide-tabs/issues"
+    "url": "https://github.com/brychanrobot/hyper-autohide-fullscreen/issues"
   },
-  "homepage": "https://github.com/brychanrobot/hyper-autohide-tabs#readme"
+  "homepage": "https://github.com/brychanrobot/hyper-autohide-fullscreen#readme"
 }
