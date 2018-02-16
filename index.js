@@ -16,8 +16,10 @@ exports.decorateConfig = config => Object.assign({}, config, {
 exports.getTabsProps = (parentProps, props) => {
   const bodyClasses = document.body.classList
 
-  if (props.tabs.length <= 1) {
-	console.log("one tab")
+  const darwinFullScreen = process.platform !== 'darwin' 
+    || !window.screenTop && !window.screenY
+
+  if (props.tabs.length <= 1 && darwinFullScreen) {
     bodyClasses.add('closed-tabs')
   } else {
     bodyClasses.remove('closed-tabs')
